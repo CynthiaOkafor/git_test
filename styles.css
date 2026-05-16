@@ -1,0 +1,49 @@
+/* Page overall */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main heading */
+h1 {
+  color: #6c63ff;
+  font-size: 42px;
+}
+
+/* All other headings */
+h2 {
+  color: #333333;
+  border-bottom: 2px solid #6c63ff;
+  padding-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container to center everything */
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Style the lists */
+li {
+  margin-bottom: 8px;
+  line-height: 1.8;
+}
