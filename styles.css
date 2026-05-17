@@ -47,3 +47,28 @@ li {
   margin-bottom: 8px;
   line-height: 1.8;
 }
+
+h1 {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #6c63ff;
+}
+
+.intro {
+    font-size: 18px;
+    color: #6c63ff;
+    font-weight: bold;
+}
+.card-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
