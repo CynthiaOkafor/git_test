@@ -72,16 +72,65 @@
 // }
 
 
-const students = [
-  { name: "Cynthia", score: 85 },
-  { name: "John", score: 45 },
-  { name: "Amara", score: 72 },
-];
+// const students = [
+//   { name: "Cynthia", score: 85 },
+//   { name: "John", score: 45 },
+//   { name: "Amara", score: 72 },
+// ];
 
-for (let i = 0; i < students.length; i++) {
-  if (students[i].score >= 70) {
-    console.log(students[i].name + " passed!");
-  } else {
-    console.log(students[i].name + " failed!");
+// for (let i = 0; i < students.length; i++) {
+//   if (students[i].score >= 70) {
+//     console.log(students[i].name + " passed!");
+//   } else {
+//     console.log(students[i].name + " failed!");
+//   }
+// }
+
+// const name = "Cynthia";
+// const level = 500;
+// const course = "Medical Laboratory Science";
+// const school = "University of Lagos";
+// const skills = ["HTML", "CSS", "JavaScript"];
+
+// console.log(`My name is ${name}`);
+// console.log(`I am a ${level}L student of ${course} at ${school}`);
+// console.log(`I know ${skills.length} programming skills so far`);
+// console.log(`My first skill is ${skills[0]}`);
+// console.log(`${2 + 2} is the result of 2 + 2`);
+
+// // Regular function
+// function add(a, b) {
+//   return a + b;
+// }
+
+// // Same function as arrow function
+// const addArrow = (a, b) => a + b;
+
+// console.log(add(5, 10));
+// console.log(addArrow(5, 10));
+
+// // Arrow function with template literals
+// const introduce = (name, course) => {
+//   console.log(`Hi I am ${name} and I study ${course}`);
+// }
+
+// introduce("Cynthia", "Medical Laboratory Science");
+
+
+class Hospital {
+  constructor(name, location, specialty) {
+    this.name = name;
+    this.location = location;
+    this.specialty = specialty;
+  }
+
+  describe() {
+    console.log(`${this.name} is located in ${this.location} and specialises in ${this.specialty}`);
   }
 }
+
+const hospital1 = new Hospital("LUTH", "Lagos", "General Medicine");
+const hospital2 = new Hospital("UCH", "Ibadan", "Cardiology");
+
+hospital1.describe();
+hospital2.describe();
